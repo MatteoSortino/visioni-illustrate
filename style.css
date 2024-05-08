@@ -1,0 +1,256 @@
+
+@font-face {
+    font-family: "Gotham";
+    src: url('/gotham/Gotham-Bold.otf') format('truetype'); 
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gotham";
+    
+    
+}
+body {
+    background-color: #E6AACE;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #344966;
+    color: #fff;
+    height: 139px;
+    padding: 10px 20px;
+}
+
+
+.logo {
+
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 100px;
+}
+.logo a {
+  text-decoration: none; /* Rimuove l'underline */
+  color: white; /* Imposta il colore del testo su bianco */
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    padding-right: 100px;
+}
+
+.menu li {
+    padding: 50px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #4CAF50;
+}
+
+
+.hero_container {
+    display: flex;
+    padding-top: 50px;
+  }
+  
+  .hero_text {
+    padding: 50px; 
+    padding-left: 150px;
+    padding-top: 100px;
+    font-size: 25px;
+  }
+
+
+  .hero_img {
+    margin-top: 100px;
+    margin-left: 400px;
+    
+    width: 750px;
+    
+  }
+  .rectangle {
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color:white;
+    margin-top: 140px;
+    margin-left: 0; /* Aggiunto per posizionare il rettangolo a sinistra */
+    width: 500px; 
+    height: 200px; 
+    background-color: #344966; 
+    border-radius: 30px; 
+    border: 2px solid #F0F4EF; 
+    display: flex;
+    flex-direction: column; /* Aggiunto per allineare il testo verticalmente */
+    
+}
+
+.rectangle h2,
+.rectangle p {
+    text-align: center;
+    margin: 5px auto; /* Aggiornato per centrare il testo orizzontalmente */
+} 
+
+.innaguration {
+    position: relative;
+    display: flex;
+   
+    width: 750px; 
+    background-color: #344966; 
+    border-radius: 30px; 
+    border: 2px solid #F0F4EF; 
+    justify-content: right;
+    align-items: right;
+    padding: 20px;
+    
+    color: white;
+    margin-top: 140px;
+    left: -50px;
+}
+
+.innaguration h2 {
+    padding-right: 50px;
+}
+.innaguration h3 {
+  padding-right: 30px;
+}
+.innaguration h3 {
+  padding-right: 24px;
+}
+
+.text_innaguration {
+    position: relative;
+    display: flex;
+    height: 300px;
+    width: 1200px; 
+    background-color: #344966; 
+    border-radius: 30px; 
+    border: 2px solid #F0F4EF; 
+    padding: 20px;
+    color: white;
+    margin-top: 100px;
+    left: -50px;
+}
+
+.text_mostra {
+  position: relative;
+  display: flex;
+  height: 400px;
+  width: 1250px; 
+  background-color: #344966; 
+  border-radius: 30px; 
+  border: 2px solid #F0F4EF; 
+  padding: 20px;
+  color: white;
+  margin-top: 100px;
+  left: -50px;
+}
+
+.text_innaguration p {
+font-size: 20px;
+    padding-left: 150px;
+}
+
+
+.innaguration {
+    position: relative;
+    display: flex;
+   
+    width: 750px; 
+    background-color: #344966; 
+    border-radius: 30px; 
+    border: 2px solid #F0F4EF; 
+    justify-content: right;
+    align-items: right;
+    padding: 20px;
+    
+    color: white;
+    margin-top: 140px;
+    left: -50px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  
+  .card {
+    background-color: #0D1821;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border: #F0F4EF 2px solid;
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .image {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .image img {
+    width: 100%;
+  }
+  
+  .title {
+    color: white;
+    margin-top: 10px;
+  }
+  .footer {
+    background-color: #344966;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.social img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+
+
+.email,
+.address {
+    text-align: right;
+}
+
+.contact p {
+    margin: 5px 0;
+}
+  
+  .image-table {
+    margin-left: 25%;
+    margin-top: 70px;
+    width: 50%;
+    border-collapse: collapse;
+    align-items: center;
+
+}
+
+.image-table td {
+    border: 3px solid #0D1821 ;
+}
+
+/* Stili per le immagini */
+.image {
+    width: 100%;
+    height: auto;
+}
